@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Hero from './Header.js';
+import Header from './Header.js';
 
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <Header />
     </div>
   );
 }
