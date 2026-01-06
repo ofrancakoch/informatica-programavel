@@ -1,12 +1,10 @@
 import logo_sentinelas_svg from "../logo_sentinelas.png"
 import { listaDeAbas } from "./ListaDeAbas.js";
-import Header from "../pages/Header.js";
 
 const SideBar = () => {
 
     return (
         <>
-        <main className="flex">
             <aside className="w-56 bg-[#089AD8] border-2 border-solid border-gray-300 h-screen relative z-10">
                 
                 <nav className="mt-7 text-white flex flex-col justify-between items-center">
@@ -42,11 +40,6 @@ const SideBar = () => {
 
             </aside>
 
-            <div className="flex-1">
-                <Header/>
-            </div>
-
-        </main>
         </>
     );
 

@@ -1,4 +1,7 @@
-import SearchBar from "../components/SearchBar";
+import SearchBar from "./SearchBar";
+import HeaderButton from "./HeaderButton";
+import Notifications from "./Notifications";
+
 
 const Header = () => {
 
@@ -11,17 +14,17 @@ const Header = () => {
                     <SearchBar/>
                     
 
-                    <div className=" flex items-center gap-5 absolute w-44 h-10 right-5">
-                        <img
-                            src="/icons/icone_notificacoes.svg"
-                            alt="Ícone Notificações"
-                            width={25}
-                            className="cursor-pointer"
-                        />
+                    <div className=" flex items-center gap-5 absolute  h-10 mr-5 right-5">
+                        
+                        
+                        
+                        <Notifications/>
+
+
+
                         <div className="w-0.5 h-7 rounded-md bg-gray-300"></div>
             
-                            <p>Octávio França</p>
-                        
+                            <HeaderButton/>
                             
                     </div>
                 </div>

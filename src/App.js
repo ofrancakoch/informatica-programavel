@@ -1,12 +1,15 @@
 import './App.css';
-import Header from './header_components/Header.js';
+import Home from './pages/Home.js';
+import { Provider } from "./components/ui/provider";
 
-
-function App() {
+function App({ Component, pageProps }) {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <Provider>
+      
+      <div className="App">
+        <Home />
+      </div>
+    </Provider>
   );
 }
 
